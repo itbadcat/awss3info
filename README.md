@@ -18,6 +18,7 @@ See [requirements.txt](requirements.txt)
 ### Usage
 1. Install the demo.
 2. Configure the credentials required to access your AWS account as per [the boto3 documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html). The initial permissions required for script functionality are:
-[ec2:DescribeRegions](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeRegions.html)
-[s3:ListAllMyBuckets](https://docs.aws.amazon.com/AmazonS3/latest/API/API_ListBuckets.html)
-[s3:ListBucket](https://docs.aws.amazon.com/AmazonS3/latest/API/API_ListObjectsV2.html)
+  - [ec2:DescribeRegions](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeRegions.html)
+  - [s3:ListAllMyBuckets](https://docs.aws.amazon.com/AmazonS3/latest/API/API_ListBuckets.html)
+  - [s3:ListBucket](https://docs.aws.amazon.com/AmazonS3/latest/API/API_ListObjectsV2.html)
+3. Execute. ```python s3.py```
